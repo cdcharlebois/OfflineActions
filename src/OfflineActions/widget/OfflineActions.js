@@ -36,6 +36,8 @@ define([
             }
             if (this.trigger == "onchange") {
                 this._attachOnChange();
+            } else if (this.trigger === "onupdate") {
+                window.setTimeout(this._run.bind(this), 0);
             }
         },
 

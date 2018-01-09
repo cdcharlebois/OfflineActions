@@ -14,6 +14,7 @@
                 <enumerationValue key="onclick">On click of the selected element</enumerationValue>
                 <enumerationValue key="onload">On load</enumerationValue>
                 <enumerationValue key="onchange">On change of an attribute</enumerationValue>
+                <enumerationValue key="onupdate">On context load/change</enumerationValue>
             </enumerationValues>
         </property>
         <property key="elementName" type="string" required="false">
